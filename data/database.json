@@ -74,6 +74,39 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "bxVZ9ZioI",
+      "uuid": "f84f9e47-b927-4f8f-bf20-4063fed2fd8c",
+      "firstName": "Erick",
+      "lastName": "Sawamura",
+      "username": "Admin",
+      "password": "$2a$10$S192TP3ko2xcU15mxwDaS.31TSQ7xOUHtDg9x8ELdaIMiSxOajByq",
+      "balance": 0,
+      "createdAt": "2025-10-16T17:11:38.561Z",
+      "modifiedAt": "2025-10-16T17:11:38.561Z"
+    },
+    {
+      "id": "Q5x5ZkW8v",
+      "uuid": "f5023430-f77e-41c1-96b6-822937634a16",
+      "firstName": "Erick",
+      "lastName": "Sawamura",
+      "username": "Admin",
+      "password": "$2a$10$XF88OMzEHP5wO66gpPIH0e4K9yVNwSBnQpjllnnUp1taLkrQAkSI6",
+      "balance": 0,
+      "createdAt": "2025-10-16T17:52:26.106Z",
+      "modifiedAt": "2025-10-16T17:52:26.106Z"
+    },
+    {
+      "id": "Jc_RDWjbd",
+      "uuid": "01fd7465-e880-4298-95c6-8ea96b617210",
+      "firstName": "Erick",
+      "lastName": "Sawamura",
+      "username": "Admin",
+      "password": "$2a$10$O813X.Nfq/GQdymdxouUw.nRjMaqyP1BrRMApE.pOb8an/4Eizpzm",
+      "balance": 0,
+      "createdAt": "2025-10-16T17:52:39.130Z",
+      "modifiedAt": "2025-10-16T17:52:39.130Z"
     }
   ],
   "contacts": [
@@ -253,6 +286,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "ddB4YCc95",
+      "uuid": "80de657d-17a6-4484-bcb2-19cd20211e38",
+      "userId": "bxVZ9ZioI",
+      "bankName": "Erick",
+      "accountNumber": "987654321",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2025-10-16T17:12:05.751Z",
+      "modifiedAt": "2025-10-16T17:12:05.751Z"
     }
   ],
   "transactions": [
