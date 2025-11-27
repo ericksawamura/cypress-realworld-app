@@ -1,9 +1,22 @@
-    describe('Enviar dinheiro com saldo suficiente', () => {
+  describe('Enviar dinheiro com saldo suficiente', () => {
   it('Deve enviar dinheiro com sucesso', () => {
     cy.visit('http://localhost:3000/signin')
+    cy.get("[href='/signup']").click()
+    cy.get("[name='firstName']").type('Erick')
+    cy.get("[name='lastName']").type('Sawamura')
+    cy.get("[name='username']").type('Admin')
+    cy.get("[name='password']").type('admin123')
+    cy.get("[name='confirmPassword']").type('admin123')
+    cy.get("[type='submit']").click()
     cy.get("[name='username']").type('Admin')
     cy.get("[type='password']").type('admin123')
     cy.get("[type='submit']").click()
+    cy.get("[data-test='user-onboarding-next']").click()
+    cy.get("[placeholder='Bank Name']").type('Erick')
+    cy.get("[placeholder='Routing Number']").type('123456789')
+    cy.get("[placeholder='Account Number']").type('987654321')
+    cy.get("[data-test='bankaccount-submit']").click()
+    cy.get("[data-test='user-onboarding-next']").click()
     cy.get("[href='/contacts']").click()
     cy.get("[data-test='transaction-list-empty-create-transaction-button']").click()
     cy.get(".css-konndc-MuiListItemText-root").eq(0).click()
